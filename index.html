@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en" data-theme="night" data-motion="system">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#0b1121" />
+    <meta name="color-scheme" content="dark light" />
+    <meta name="description" content="An offline-first treasure hunt and guided tour of Buenos Aires for two: nine places, real history, narrated, and a mystery to solve." />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="Hidden City" />
+    <link rel="icon" href="./icons/favicon.svg" type="image/svg+xml" />
+    <link rel="icon" href="./icons/favicon-32.png" sizes="32x32" type="image/png" />
+    <link rel="apple-touch-icon" href="./icons/apple-touch-icon.png" />
+    <title>Buenos Aires: The Hidden City</title>
+    <style>
+      html,
+      body {
+        margin: 0;
+        background: #0b1121;
+        color: #f2ebdc;
+        font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+      }
+      #boot-fallback {
+        min-height: 100dvh;
+        display: grid;
+        place-items: center;
+        text-align: center;
+        padding: 24px;
+      }
+      #boot-fallback p {
+        color: #bdb5a4;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="app">
+      <div id="boot-fallback">
+        <div>
+          <h1 style="font-family: Georgia, serif; font-weight: 500">The Hidden City</h1>
+          <p>Opening your journal…</p>
+        </div>
+      </div>
+    </div>
+    <noscript>This tour needs JavaScript to run.</noscript>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

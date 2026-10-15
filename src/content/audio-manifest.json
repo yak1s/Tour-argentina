@@ -1,0 +1,134 @@
+{
+  "arches-solved": {
+    "file": "audio/narration/arches-solved.mp3",
+    "durationSec": 53.74,
+    "scriptHash": "4c957ae4587c9b16",
+    "voice": "af_heart"
+  },
+  "arches-story": {
+    "file": "audio/narration/arches-story.mp3",
+    "durationSec": 109.7,
+    "scriptHash": "1c6d5ffe9d8c12a1",
+    "voice": "af_heart"
+  },
+  "architects-solved": {
+    "file": "audio/narration/architects-solved.mp3",
+    "durationSec": 38.76,
+    "scriptHash": "357ec145cfd806d6",
+    "voice": "af_heart"
+  },
+  "architects-story": {
+    "file": "audio/narration/architects-story.mp3",
+    "durationSec": 105.77,
+    "scriptHash": "17f3f5e4cddcdcf8",
+    "voice": "af_heart"
+  },
+  "colours-solved": {
+    "file": "audio/narration/colours-solved.mp3",
+    "durationSec": 45.43,
+    "scriptHash": "8e7745d5437ebe1f",
+    "voice": "af_heart"
+  },
+  "colours-story": {
+    "file": "audio/narration/colours-story.mp3",
+    "durationSec": 99.26,
+    "scriptHash": "4c57900ac754d699",
+    "voice": "af_heart"
+  },
+  "fever-solved": {
+    "file": "audio/narration/fever-solved.mp3",
+    "durationSec": 37.75,
+    "scriptHash": "d522a25937017c99",
+    "voice": "af_heart"
+  },
+  "fever-story": {
+    "file": "audio/narration/fever-story.mp3",
+    "durationSec": 85.56,
+    "scriptHash": "b3b5a738bc64f27e",
+    "voice": "af_heart"
+  },
+  "finale-letter": {
+    "file": "audio/narration/finale-letter.mp3",
+    "durationSec": 104.81,
+    "scriptHash": "b0c3ddfe50434985",
+    "voice": "af_heart"
+  },
+  "finale-question": {
+    "file": "audio/narration/finale-question.mp3",
+    "durationSec": 21.26,
+    "scriptHash": "e510ceddd9a2816f",
+    "voice": "af_heart"
+  },
+  "finale-ride": {
+    "file": "audio/narration/finale-ride.mp3",
+    "durationSec": 47.62,
+    "scriptHash": "d618386bbac4e839",
+    "voice": "af_heart"
+  },
+  "flower-solved": {
+    "file": "audio/narration/flower-solved.mp3",
+    "durationSec": 22.06,
+    "scriptHash": "36626a5cf94e8562",
+    "voice": "af_heart"
+  },
+  "flower-story": {
+    "file": "audio/narration/flower-story.mp3",
+    "durationSec": 71.21,
+    "scriptHash": "387cdb0ae65dabb5",
+    "voice": "af_heart"
+  },
+  "foundings-solved": {
+    "file": "audio/narration/foundings-solved.mp3",
+    "durationSec": 32.47,
+    "scriptHash": "0205834a08afb820",
+    "voice": "af_heart"
+  },
+  "foundings-story": {
+    "file": "audio/narration/foundings-story.mp3",
+    "durationSec": 91.92,
+    "scriptHash": "28863b3544eca549",
+    "voice": "af_heart"
+  },
+  "garden-solved": {
+    "file": "audio/narration/garden-solved.mp3",
+    "durationSec": 22.54,
+    "scriptHash": "bd753337337a1c18",
+    "voice": "af_heart"
+  },
+  "garden-story": {
+    "file": "audio/narration/garden-story.mp3",
+    "durationSec": 105.94,
+    "scriptHash": "75558599f46d3b79",
+    "voice": "af_heart"
+  },
+  "key-solved": {
+    "file": "audio/narration/key-solved.mp3",
+    "durationSec": 27.89,
+    "scriptHash": "980cc273b3511f60",
+    "voice": "af_heart"
+  },
+  "key-story": {
+    "file": "audio/narration/key-story.mp3",
+    "durationSec": 58.37,
+    "scriptHash": "201ef95d7edd090b",
+    "voice": "af_heart"
+  },
+  "prologue-corner": {
+    "file": "audio/narration/prologue-corner.mp3",
+    "durationSec": 32.98,
+    "scriptHash": "dec4529d3607a208",
+    "voice": "af_heart"
+  },
+  "prologue-solved": {
+    "file": "audio/narration/prologue-solved.mp3",
+    "durationSec": 28.78,
+    "scriptHash": "f76dd25480bd02be",
+    "voice": "af_heart"
+  },
+  "prologue-welcome": {
+    "file": "audio/narration/prologue-welcome.mp3",
+    "durationSec": 78.58,
+    "scriptHash": "a1706ee9a48525e0",
+    "voice": "af_heart"
+  }
+}

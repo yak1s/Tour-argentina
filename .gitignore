@@ -1,0 +1,14 @@
+node_modules/
+dist/
+dev-dist/
+coverage/
+test-results/
+playwright-report/
+blob-report/
+*.log
+.DS_Store
+.vite/
+# TTS working files (model weights are never committed)
+scripts/tts/.venv/
+scripts/tts/models/
+scripts/tts/out/

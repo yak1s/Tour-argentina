@@ -1,0 +1,115 @@
+/* Design tokens. Two themes: "night" (default midnight journal) and "sun"
+   (high-contrast light theme for bright Buenos Aires sunlight). */
+
+:root {
+  --ink-950: #070b16;
+  --ink-900: #0b1121;
+  --ink-850: #0f172b;
+  --ink-800: #131d34;
+  --ink-700: #1b2843;
+  --ink-600: #263655;
+  --ink-500: #3a4c71;
+  --paper-50: #fcf9f2;
+  --paper-100: #f6efe0;
+  --paper-200: #ece2cb;
+  --paper-300: #ddcca8;
+  --brass-200: #f0dcb0;
+  --brass-300: #e5c88d;
+  --brass-400: #d3aa63;
+  --brass-500: #b98c45;
+  --brass-600: #8f6b33;
+  --brass-700: #6d5126;
+  --silver-200: #d8dfe8;
+  --silver-400: #a3b2c4;
+  --silver-600: #6d7f97;
+  --terracotta: #b8553b;
+  --rose: #b35a69;
+  --sage: #4f7d64;
+  --sage-light: #9cc4ab;
+  --danger: #b24a45;
+
+  --bg: var(--ink-900);
+  --bg-raised: var(--ink-800);
+  --bg-sunken: var(--ink-950);
+  --line: rgba(229, 200, 141, 0.18);
+  --line-strong: rgba(229, 200, 141, 0.38);
+  --text: #f2ebdc;
+  --text-muted: #bdb5a4;
+  --text-faint: #8e887b;
+  --accent: var(--brass-400);
+  --accent-strong: var(--brass-300);
+  --accent-ink: #1b1406;
+  --card: var(--paper-50);
+  --card-2: var(--paper-100);
+  --card-line: rgba(70, 52, 20, 0.16);
+  --card-text: #1c2232;
+  --card-muted: #5a5e6a;
+  --focus: #ffd98a;
+  --ok: var(--sage-light);
+  --ok-strong: var(--sage);
+  --warn: #f0b35b;
+
+  --font-display: 'Fraunces Variable', 'Iowan Old Style', 'Palatino Linotype', Georgia, serif;
+  --font-ui: 'Inter Variable', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  --font-mono: 'Courier Prime', 'Courier New', ui-monospace, monospace;
+
+  --text-scale: 1;
+  --fs-xs: calc(0.78rem * var(--text-scale));
+  --fs-sm: calc(0.875rem * var(--text-scale));
+  --fs-md: calc(1rem * var(--text-scale));
+  --fs-lg: calc(1.125rem * var(--text-scale));
+  --fs-xl: calc(1.375rem * var(--text-scale));
+  --fs-2xl: calc(1.75rem * var(--text-scale));
+  --fs-3xl: calc(2.25rem * var(--text-scale));
+
+  --r-sm: 10px;
+  --r: 16px;
+  --r-lg: 22px;
+  --r-xl: 30px;
+  --tap: 48px;
+  --gutter: 16px;
+  --maxw: 560px;
+  --tabbar-h: 64px;
+  --safe-top: env(safe-area-inset-top, 0px);
+  --safe-bottom: env(safe-area-inset-bottom, 0px);
+
+  --shadow-card: 0 1px 0 rgba(255, 255, 255, 0.5) inset, 0 18px 40px -22px rgba(0, 0, 0, 0.75), 0 2px 6px -2px rgba(0, 0, 0, 0.35);
+  --shadow-float: 0 20px 50px -18px rgba(0, 0, 0, 0.8);
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+  --dur-1: 160ms;
+  --dur-2: 280ms;
+  --dur-3: 520ms;
+
+  color-scheme: dark;
+}
+
+:root[data-theme='sun'] {
+  --bg: #f4ecda;
+  --bg-raised: #fffaf0;
+  --bg-sunken: #e9dfc7;
+  --line: rgba(40, 30, 10, 0.18);
+  --line-strong: rgba(40, 30, 10, 0.4);
+  --text: #0c0f18;
+  --text-muted: #383b46;
+  --text-faint: #5c5f69;
+  --accent: #7a5520;
+  --accent-strong: #5e3f12;
+  --accent-ink: #fffaf0;
+  --card: #ffffff;
+  --card-2: #fbf6ea;
+  --card-line: rgba(30, 22, 8, 0.22);
+  --card-text: #0b0e16;
+  --card-muted: #3d404b;
+  --focus: #1f4fd1;
+  --ok: #2f6b4b;
+  --ok-strong: #245a3d;
+  --warn: #8a4b00;
+  color-scheme: light;
+}
+
+:root[data-motion='reduce'] {
+  --dur-1: 1ms;
+  --dur-2: 1ms;
+  --dur-3: 1ms;
+}
